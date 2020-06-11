@@ -46,6 +46,15 @@ class HelloWorldSpec extends WordSpec with Matchers {
       }
     }
 
-  }
 
+    "provided with an unsupported string" should {
+
+      "return 'Erm... Hello World?!'" in {
+
+        val result = HelloWorld.printHelloWorld("erm")
+
+        result shouldBe "Erm... Hello World?!"
+      }
+    }
+  }
 }
