@@ -5,6 +5,7 @@ object HelloWorld {
     language.toLowerCase() match {
       case ("en") => "Hello World!"
       case ("fr") => "Bonjour le monde!"
+      case ("hu") => "Helló Világ!"
     }
   }
 

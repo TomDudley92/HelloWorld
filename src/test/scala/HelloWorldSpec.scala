@@ -36,6 +36,16 @@ class HelloWorldSpec extends WordSpec with Matchers {
       }
     }
 
+    "provided with 'HU" should {
+
+      "return 'Helló Világ!" in {
+
+        val result = HelloWorld.printHelloWorld("hu")
+
+        result shouldBe "Helló Világ!"
+      }
+    }
+
   }
 
 }
