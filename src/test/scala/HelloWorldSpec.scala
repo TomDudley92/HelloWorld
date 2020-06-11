@@ -25,7 +25,7 @@ class HelloWorldSpec extends WordSpec with Matchers {
       }
     }
 
-    "provided with 'FR'" should {
+    "provided with 'fr'" should {
 
       "return 'Bonjour le monde!'" in {
 
